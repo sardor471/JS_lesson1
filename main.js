@@ -10,7 +10,7 @@ let a = 5;
 let b = 10;
 let S = a*b;
 let P = 2*(a+b)
-console.log("To'g'ri to'rtburchak yuzasi:", S, "/n", "To'g'ri to'rtburchak perimetri:", P)
+console.log("To'g'ri to'rtburchak yuzasi:", S, "To'g'ri to'rtburchak perimetri:", P)
 
 // begin 2
 let d = 5;
@@ -32,7 +32,7 @@ let d2 = 3;
 let c2 = 4;
 let v2 = a2*d2*c2;
 let s2 = 2*(a2*d2+d2*c2+a2*c2)
-console.log("Paralelipipedning hajmi:", v2, "/N", "Paralelipipedning tola sirti:", c2)
+console.log("Paralelipipedning hajmi:", v2, "Paralelipipedning tola sirti:", c2)
 
 // begin 5
 let a3 = 5;
@@ -116,7 +116,55 @@ console.log(birlik, onlik)
 
 // integer 2
 let N = 356
-let Nbirlik = N%10;
-let Nonlik = parseInt(N/10)%10;
 let Nyuzlik = parseInt(N/100);
-console.log(Nbirlik, Nonlik ,Nyuzlik, Nbirlik + Nonlik + Nyuzlik)
+let Nonlik = parseInt(N/10)%10;
+let Nbirlik = N%10;
+console.log(Nyuzlik, Nonlik, Nbirlik, Nbirlik + Nonlik + Nyuzlik)
+
+// integer 3
+let g = 345
+let gyuzlik = parseInt(g/100);
+let gonlik = parseInt(g/10)%10;
+let gbirlik = g%10;
+console.log("345:", gbirlik, gonlik, gyuzlik,)
+
+// integer 4
+let j = 454
+let jyuzlik = parseInt(j/100);
+let jonlik = parseInt(j/10)%10;
+let jbirlik = j%10;
+console.log("454:", jonlik, jyuzlik, jbirlik)
+
+// integer 5
+let h = 723
+let hyuzlik = parseInt(h/100);
+let honlik = parseInt(h/10)%10;
+let hbirlik = h%10;
+console.log("723:", hyuzlik, hbirlik, honlik)
+
+// integer 6
+let n = 54598
+let nminglik = parseInt(n/1000)%10;
+console.log("54598:", nminglik)
+
+// integer 7
+let n1 = 748
+let n1minut = parseInt(n1/60);
+console.log("748 sekund=", n1minut)
+
+// integer 8
+let o = 563563
+let osoat = parseInt(o/3600)
+console.log("563563 sekund =", osoat, "- soat")
+
+// integer 9
+let o1 = 9623
+let o1minut = parseInt(o1/60);
+let o1sekund = o1%60;
+console.log("9623 sekund=", o1minut, "minut", o1sekund, "sekund")
+
+// integer 10
+let t = 7294
+let tsoat = parseInt(t/3600);
+let tsekund = t%60;
+console.log("7294 sekund=", tsoat, "soat", tsekund, "sekund")
