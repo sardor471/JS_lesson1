@@ -168,3 +168,47 @@ let t = 7294
 let tsoat = parseInt(t/3600);
 let tsekund = t%60;
 console.log("7294 sekund=", tsoat, "soat", tsekund, "sekund")
+
+
+// boolean 1
+let q = 42;
+console.log("42>5 -", q>5)
+
+// boolean 2
+let q1 = 8;
+console.log("8>5", q1>5)
+
+// boolean 3
+let i = 4;
+let u = 1;
+console.log("4>2 -", i>2, "1<=3 -", u<=3)
+
+// boolean 4
+let i1 = 52;
+let u1 = 65;
+let p1 = 65;
+console.log("52<=65<=65 -", i1<=u1<=p1)
+
+// boolean 5
+console.log("3"!=4)
+
+// boolean 6
+console.log("3"!=6!=-12)
+
+// boolean 7
+// && - (and) operatori. Ikta (yoki undan kop) sshartning barchasi rost bolsa natija true boladi. Agar bitta shartxam notogri bolsa folse boladi.
+let k = 234
+let kyuzlik = parseInt(k/100);
+let konlik = parseInt(k/10)%10;
+let kbirlik = k%10;
+let k1 = (kyuzlik !== konlik)&&(kyuzlik !== kbirlik)&&(konlik !== kbirlik)     
+console.log(k1)
+
+// boolean 8
+// || - (or) operatori. Ikta (yoki undan kop) shartdan xech bolmaganda bittasi rost bolsa natija true boladi. Agar barcha shartlar notogri bolsa natija folse boladi.
+let w = 5
+let y = 8
+let z = 5
+let h1 = (w === y) || (w === z) || (y === z)
+console.log(h1)
+
