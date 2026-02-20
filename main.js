@@ -3,7 +3,7 @@
 // console.log("Y Funksiyaning qiymati:", Y)
 
 
-
+                                                    // Begin
 
 // begin 1
 // let a = 5;
@@ -110,6 +110,8 @@
 // let res = a * b + c * d;
 // console.log("Abdulaziz jami qilgan savdosi:", res)
 
+                                                  // Integer
+
 // integer 1
 // let number = 946;
 // let birlik = number%10;
@@ -171,6 +173,8 @@
 // let tsekund = t%60;
 // console.log("7294 sekund=", tsoat, "soat", tsekund, "sekund")
 
+                                                        // Boolean
+
 // boolean 1
 // let a = 10;
 // console.log(a>0)
@@ -221,7 +225,7 @@
 // console.log(res)
 
 
-// Uyga vazifa
+                                                 // Uyga vazifa Boolean
 
 // boolean 1
 // let a = 42;
@@ -265,3 +269,37 @@
 // let res = (a === b) || (a === c) || (b === c)
 // console.log(res)
 
+                                            // Uyga vazifav IF
+
+// if 1
+// let a = 8;
+// if(a>0){
+//     a++
+// }
+// console.log(a)
+
+// if 2
+// let a = -99;
+// if (a > 0) {
+//     a = a + 1;
+// }
+// if (a < 0) {
+//     a = a - 2;
+// } 
+// else {
+//     a = 10;
+// }
+// console.log(a);
+
+// if 3
+// let a = 13, b = 10, c = -20, natija = 0;
+// if(a>0){
+//     natija++
+// }
+// if(b>0){
+//     natija++
+// }
+// if(c>0){
+//     natija++
+// }
+// console.log(natija, 3-2)
